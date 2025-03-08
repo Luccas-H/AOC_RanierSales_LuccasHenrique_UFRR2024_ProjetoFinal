@@ -57,4 +57,7 @@ Agora, siga os passos abaixo para executar o projeto no **Intel Quartus Prime Li
 
 ## 👨‍💻 Autores
 - **Ranier Sales**  
-- **Luccas Henrique**  
+- **Luccas Henrique**
+
+---
+Esse projeto foi desenvolvido para aplicar na prática os conceitos de Arquitetura e Organização de Computadores e entre outros conhecimentos relacionados.
