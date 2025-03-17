@@ -14,5 +14,5 @@ begin
     Y <= D0 when S = "00" else
          D1 when S = "01" else
          D2 when S = "10" else
-         D3;
-end main;
+         D3; 
+end main;
