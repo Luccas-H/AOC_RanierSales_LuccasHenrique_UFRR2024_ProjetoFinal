@@ -1,0 +1,312 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ula_8bits_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Projetos/AOC/ula_8bits/ula_8bits.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:55:12 on Mar 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Projetos/AOC/ula_8bits/ula_8bits.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ula_8bits
+# -- Compiling architecture main of ula_8bits
+# End time: 18:55:12 on Mar 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.ula_8bits
+# vsim work.ula_8bits 
+# Start time: 18:55:16 on Mar 16,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ula_8bits(main)
+wave create -driver freeze -pattern random -initialvalue UUUUUUUU -period 100ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/A
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern random -initialvalue UUUUUUUU -period 200ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/B
+wave create -driver freeze -pattern random -initialvalue {Not Logged} -period 300ns -random_type Uniform -seed 5 -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+# Value length (3) does not equal array index length (4).
+# 
+#Invalid value to -initialvalue switch: Not Logged
+# 
+wave create -driver freeze -pattern random -initialvalue {Not Logged} -period 300ns -random_type Uniform -seed 5 -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+# Value length (3) does not equal array index length (4).
+# 
+#Invalid value to -initialvalue switch: Not Logged
+# 
+wave create -driver freeze -pattern random -initialvalue 0000 -period 300ps -random_type Uniform -seed 5 -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+wave create -driver freeze -pattern random -initialvalue 00000000 -period 300ns -random_type Uniform -seed 5 -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+# Value length (8) does not equal array index length (4).
+# 
+#Invalid value to -initialvalue switch: 00000000
+# 
+wave create -driver freeze -pattern random -initialvalue 0000 -period 300ns -random_type Uniform -seed 5 -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+add wave -position insertpoint  \
+sim:/ula_8bits/Resultado
+add wave -position insertpoint  \
+sim:/ula_8bits/Zero
+restart
+restart
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run -all
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run -all
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 0111 -type Range -direction Up -period 300ns -step 1 -repeat forever -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+add wave -position 2 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/OpCode
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+wave create -driver freeze -pattern constant -value 10101110 -range 7 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/A
+add wave -position 1 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/A
+wave create -driver freeze -pattern constant -value 00101101 -range 7 0 -starttime 0ps -endtime 1000ps sim:/ula_8bits/B
+add wave -position 2 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/B
+add wave -position 3 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/OpCode
+wave create -driver freeze -pattern counter -startvalue 0000 -endvalue 0111 -type Range -direction Up -period 100ns -step 1 -repeat forever -range 3 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/OpCode
+add wave -position 2 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/OpCode
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+wave create -driver freeze -pattern constant -value 00101101 -range 7 0 -starttime 0ns -endtime 1000ns sim:/ula_8bits/B
+add wave -position 1 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/ula_8bits/B
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula_8bits
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 02:34:46 on Mar 17,2025, Elapsed time: 7:39:30
+# Errors: 3, Warnings: 13
+wave editwrite -file C:/Projetos/AOC/ula_8bits/simulation/modelsim/wave.do
