@@ -1,0 +1,67 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do memoria_instruction_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Projetos/AOC/memoria_instruction/memoria_instruction.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:06 on Mar 17,2025
+# vcom -reportprogress 300 -93 -work work C:/Projetos/AOC/memoria_instruction/memoria_instruction.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memoria_instruction
+# -- Compiling architecture main of memoria_instruction
+# End time: 15:28:07 on Mar 17,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.memoria_instruction
+# vsim work.memoria_instruction 
+# Start time: 15:28:09 on Mar 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.memoria_instruction(main)
+wave create -driver freeze -pattern counter -startvalue 00000000 -endvalue 11111111 -type Range -direction Up -period 100ns -step 1 -repeat forever -range 7 0 -starttime 0ns -endtime 10000ns sim:/memoria_instruction/address
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position insertpoint  \
+sim:/memoria_instruction/instr
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:35:37 on Mar 17,2025, Elapsed time: 0:07:28
+# Errors: 0, Warnings: 0
+wave editwrite -file C:/Projetos/AOC/memoria_instruction/simulation/modelsim/wave.do

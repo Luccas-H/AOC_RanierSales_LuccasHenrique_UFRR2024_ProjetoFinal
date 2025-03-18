@@ -1,0 +1,19 @@
+|memoria_instruction
+address[0] => memory.RADDR
+address[1] => memory.RADDR1
+address[2] => memory.RADDR2
+address[3] => memory.RADDR3
+address[4] => memory.RADDR4
+address[5] => memory.RADDR5
+address[6] => memory.RADDR6
+address[7] => memory.RADDR7
+instr[0] <= memory.DATAOUT
+instr[1] <= memory.DATAOUT1
+instr[2] <= memory.DATAOUT2
+instr[3] <= memory.DATAOUT3
+instr[4] <= memory.DATAOUT4
+instr[5] <= memory.DATAOUT5
+instr[6] <= memory.DATAOUT6
+instr[7] <= memory.DATAOUT7
+
+

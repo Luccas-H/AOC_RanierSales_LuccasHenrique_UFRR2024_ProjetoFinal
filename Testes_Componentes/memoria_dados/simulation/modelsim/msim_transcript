@@ -1,0 +1,502 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do memoria_dados_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Projetos/AOC/memoria_dados/memoria_dados.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:16 on Mar 17,2025
+# vcom -reportprogress 300 -93 -work work C:/Projetos/AOC/memoria_dados/memoria_dados.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memoria_dados
+# -- Compiling architecture main of memoria_dados
+# End time: 15:48:16 on Mar 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.memoria_dados
+# vsim work.memoria_dados 
+# Start time: 15:48:18 on Mar 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.memoria_dados(main)
+add wave -position insertpoint  \
+sim:/memoria_dados/data_out
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ns -dutycycle 50 -starttime 0ns -endtime 10000ns sim:/memoria_dados/clk
+wave create -driver freeze -pattern counter -startvalue 00000000 -endvalue 11111111 -type Range -direction Up -period 200ns -step 1 -repeat forever -range 7 0 -starttime 0ns -endtime 10000ns sim:/memoria_dados/address
+wave create -driver freeze -pattern random -initialvalue UUUUUUUU -period 300ns -random_type Uniform -seed 5 -range 7 0 -starttime 0ns -endtime 10000ns sim:/memoria_dados/data_in
+add wave -position 0 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+add wave -position 1 -format Logic -height 17 -editable 2 Edit:/memoria_dados/clk
+add wave -position 2 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/memoria_dados/address
+add wave -position 3 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/memoria_dados/data_in
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 1 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 0 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+wave create -driver freeze -pattern constant -value 1 -starttime 0ns -endtime 10000ns sim:/memoria_dados/we
+add wave -position 3 -format Logic -height 17 -editable 2 Edit:/memoria_dados/we
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:11:24 on Mar 17,2025, Elapsed time: 0:23:06
+# Errors: 0, Warnings: 0
+wave editwrite -file C:/Projetos/AOC/memoria_dados/simulation/modelsim/wave.do
