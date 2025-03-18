@@ -1,0 +1,35 @@
+|pc_8bits
+clk => pc_out[0]~reg0.CLK
+clk => pc_out[1]~reg0.CLK
+clk => pc_out[2]~reg0.CLK
+clk => pc_out[3]~reg0.CLK
+clk => pc_out[4]~reg0.CLK
+clk => pc_out[5]~reg0.CLK
+clk => pc_out[6]~reg0.CLK
+clk => pc_out[7]~reg0.CLK
+reset => pc_out[0]~reg0.ACLR
+reset => pc_out[1]~reg0.ACLR
+reset => pc_out[2]~reg0.ACLR
+reset => pc_out[3]~reg0.ACLR
+reset => pc_out[4]~reg0.ACLR
+reset => pc_out[5]~reg0.ACLR
+reset => pc_out[6]~reg0.ACLR
+reset => pc_out[7]~reg0.ACLR
+pc_in[0] => pc_out[0]~reg0.DATAIN
+pc_in[1] => pc_out[1]~reg0.DATAIN
+pc_in[2] => pc_out[2]~reg0.DATAIN
+pc_in[3] => pc_out[3]~reg0.DATAIN
+pc_in[4] => pc_out[4]~reg0.DATAIN
+pc_in[5] => pc_out[5]~reg0.DATAIN
+pc_in[6] => pc_out[6]~reg0.DATAIN
+pc_in[7] => pc_out[7]~reg0.DATAIN
+pc_out[0] << pc_out[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[1] << pc_out[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[2] << pc_out[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[3] << pc_out[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[4] << pc_out[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[5] << pc_out[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[6] << pc_out[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pc_out[7] << pc_out[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
