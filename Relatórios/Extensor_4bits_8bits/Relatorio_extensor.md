@@ -1,4 +1,4 @@
-# **Relatório Técnico de Circuitos Digitais**
+# Relatório Técnico de Instruções do Processador
 
 ## **Componente: Extensor de Sinal de 4 Bits para 8 Bits**
 

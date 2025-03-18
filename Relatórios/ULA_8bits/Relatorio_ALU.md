@@ -1,4 +1,4 @@
-# Relatório Técnico de Circuitos Digitais
+# Relatório Técnico de Instruções do Processador
 
 ## Componente: Unidade Lógica e Aritmética (ULA)
 

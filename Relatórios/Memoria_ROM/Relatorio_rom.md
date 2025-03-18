@@ -1,4 +1,4 @@
-# Relatório Técnico de Circuitos Digitais
+# Relatório Técnico de Instruções do Processador
 
 ## Componente: Memória ROM de 8 Bits
 
