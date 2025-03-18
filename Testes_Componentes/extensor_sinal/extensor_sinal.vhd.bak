@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+
+-- Entidade do extensor de sinal
+entity extensor_sinal is
+    Port (
+				input 	: in STD_LOGIC_VECTOR(3 downto 0); -- Entrada de 4 bits
+				output 	: out STD_LOGIC_VECTOR(7 downto 0) -- Saída estendida para 8 bits
+    );
+end extensor_sinal;
+
+architecture main of extensor_sinal is
+begin
+
+    output(7 downto 4) <= (others => input(3)); -- Extensão de sinal replicando o bit de sinal
+    output(3 downto 0) <= input;
+	 
+end main;

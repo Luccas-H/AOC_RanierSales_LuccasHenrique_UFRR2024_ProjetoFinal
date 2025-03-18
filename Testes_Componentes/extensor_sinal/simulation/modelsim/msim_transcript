@@ -1,0 +1,65 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do extensor_sinal_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Projetos/AOC/extensor_sinal/extensor_sinal.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:36:13 on Mar 17,2025
+# vcom -reportprogress 300 -93 -work work C:/Projetos/AOC/extensor_sinal/extensor_sinal.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity extensor_sinal
+# -- Compiling architecture main of extensor_sinal
+# End time: 18:36:13 on Mar 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.extensor_sinal
+# vsim work.extensor_sinal 
+# Start time: 18:36:40 on Mar 17,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.extensor_sinal(main)
+add wave -position insertpoint  \
+sim:/extensor_sinal/output_sig
+wave create -driver freeze -pattern constant -value 1010 -range 3 0 -starttime 0ps -endtime 1000ps sim:/extensor_sinal/input_sig
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+add wave -position 0 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/extensor_sinal/input_sig
+wave create -driver freeze -pattern constant -value 1010 -range 3 0 -starttime 0ns -endtime 1000ns sim:/extensor_sinal/input_sig
+add wave -position 1 -autoscale 1 -format Literal -height 17 -editable 2 Edit:/extensor_sinal/input_sig
+run
+run
+run
+run
+run
+run
+run
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+restart
+run
+# GetModuleFileName: Não foi possível encontrar o módulo especificado.
+# 
+# 
+# End time: 18:40:09 on Mar 17,2025, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 0
+wave editwrite -file C:/Projetos/AOC/extensor_sinal/simulation/modelsim/wave.do

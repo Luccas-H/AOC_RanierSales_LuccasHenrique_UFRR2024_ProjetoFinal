@@ -1,0 +1,19 @@
+|extensor_sinal
+input_sig[0] => output_sig[0].DATAIN
+input_sig[1] => output_sig[1].DATAIN
+input_sig[2] => output_sig[2].DATAIN
+input_sig[3] => output_sig[3].DATAIN
+input_sig[3] => output_sig[7].DATAIN
+input_sig[3] => output_sig[6].DATAIN
+input_sig[3] => output_sig[5].DATAIN
+input_sig[3] => output_sig[4].DATAIN
+output_sig[0] <= input_sig[0].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[1] <= input_sig[1].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[2] <= input_sig[2].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[3] <= input_sig[3].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[4] <= input_sig[3].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[5] <= input_sig[3].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[6] <= input_sig[3].DB_MAX_OUTPUT_PORT_TYPE
+output_sig[7] <= input_sig[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
